@@ -40,4 +40,9 @@ public class Modelo {
         this.operacion = operacion;
     }
 
+    @Override
+    public String toString() {
+        return "num1= " + num1 + ", num2= " + num2 + ", resultado= " + resultado + ", operacion= " + operacion + '}';
+    }
+
 }
