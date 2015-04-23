@@ -1,9 +1,9 @@
 package calculadora;
 
-public class Modelo {
+public  class Modelo {
 
-    private float num1, num2, resultado;
-    private String operacion;
+    private  float num1, num2, resultado;
+    private  String operacion;
 
     public Modelo() {
     }
@@ -40,9 +40,10 @@ public class Modelo {
         this.operacion = operacion;
     }
 
+    
     @Override
     public String toString() {
-        return "num1= " + num1 + ", num2= " + num2 + ", resultado= " + resultado + ", operacion= " + operacion + '}';
+        return "num1= " + num1 + ", num2= " + num2 + ", resultado= " + resultado + ", operacion= " + operacion ;
     }
 
 }
