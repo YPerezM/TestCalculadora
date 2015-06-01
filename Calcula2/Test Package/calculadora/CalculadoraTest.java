@@ -31,14 +31,13 @@ public class CalculadoraTest {
     /**
      * Test of main method, of class Calculadora.
      */
-    @Test
+    /*@Test
     public void testMain() {
         System.out.println("main");
         String[] args = null;
         Calculadora.main(args);
-        // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
-    }
+        
+    }*/
 
     /**
      * Test of realizaOperacion method, of class Calculadora.
@@ -46,14 +45,13 @@ public class CalculadoraTest {
     @Test
     public void testRealizaOperacion() {
         System.out.println("realizaOperacion");
-        float n1 = 0.0F;
-        float n2 = 0.0F;
-        String op = "";
-        float expResult = 0.0F;
+        float n1 = 5.0F;
+        float n2 = 4.0F;
+        String op = "sumar";
+        float expResult = 9.0F;
         float result = Calculadora.realizaOperacion(n1, n2, op);
-        assertEquals(expResult, result, 0.0);
-        // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
+        assertEquals(expResult, result, 9.0);
+        
     }
     
 }
